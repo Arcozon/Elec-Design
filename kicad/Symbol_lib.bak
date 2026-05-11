@@ -1050,6 +1050,674 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "J_12Pin"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -248.92 -320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -248.92 -320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -248.92 -320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -248.92 -320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "J_12Pin_0_1"
+			(rectangle
+				(start -1.27 15.24)
+				(end 1.27 -15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_12Pin_1_1"
+			(polyline
+				(pts
+					(xy -0.0338 -3.9106) (xy 1.2362 -3.9106)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 13.97) (xy 1.27 13.97)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 11.43) (xy 1.27 11.43)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.89) (xy 1.27 8.89)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 1.27 6.35)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 1.27 3.81)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 1.27 -6.35)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -8.89) (xy 1.27 -8.89)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -11.43) (xy 1.27 -11.43)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -13.97) (xy 1.27 -13.97)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 13.97 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 11.43 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 8.89 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 6.35 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 3.81 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -3.81 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -6.35 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -8.89 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -11.43 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -13.97 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "J_6Pin"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -248.92 -320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -248.92 -320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -248.92 -320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -248.92 -320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "J_6Pin_0_1"
+			(rectangle
+				(start -1.27 7.62)
+				(end 1.27 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J_6Pin_1_1"
+			(polyline
+				(pts
+					(xy -0.0338 3.7094) (xy 1.2362 3.7094)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 1.27 6.35)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 1.27 -3.81)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 1.27 -6.35)
+				)
+				(stroke
+					(width 0.2794)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 6.35 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 3.81 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -3.81 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -6.35 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LED_Green"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1550,6 +2218,137 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Switch"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Switch_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0.635) (xy 1.27 0.635)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.635) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Switch_1_1"
+			(text "◯"
+				(at -1.016 0.254 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify top)
+				)
+			)
+			(text "◯"
+				(at 1.016 0.254 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify top)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "VCC"
 		(power)
 		(exclude_from_sim no)
@@ -1648,7 +2447,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
-			(at 0 -0.635 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +2455,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 0 0.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +2463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 0.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,7 +2472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +2481,7 @@
 			)
 		)
 		(property "Description" "Clock"
-			(at 5.334 -2.54 0)
+			(at 5.334 -1.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,8 +2491,8 @@
 		)
 		(symbol "Y_0_1"
 			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -1.905)
+				(start -1.905 1.27)
+				(end 1.905 -1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1704,7 +2503,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -2.54 1.27) (xy -2.54 -2.54) (xy -1.27 -2.54)
+					(xy -1.27 1.905) (xy -2.54 1.905) (xy -2.54 -1.905) (xy -1.27 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -1716,7 +2515,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -2.54) (xy 2.54 -2.54) (xy 2.54 1.27) (xy 1.27 1.27)
+					(xy 1.27 -1.905) (xy 2.54 -1.905) (xy 2.54 1.905) (xy 1.27 1.905)
 				)
 				(stroke
 					(width 0)
@@ -1730,7 +2529,7 @@
 		(symbol "Y_1_1"
 			(polyline
 				(pts
-					(xy -0.635 1.27) (xy 0.635 1.27)
+					(xy -0.635 1.905) (xy 0.635 1.905)
 				)
 				(stroke
 					(width 0.3556)
@@ -1742,7 +2541,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -2.54) (xy 0.635 -2.54)
+					(xy -0.635 -1.905) (xy 0.635 -1.905)
 				)
 				(stroke
 					(width 0.3556)
@@ -1753,7 +2552,7 @@
 				)
 			)
 			(pin power_out line
-				(at -5.08 -0.635 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1771,7 +2570,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 3.81 270)
+				(at 0 4.445 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1789,7 +2588,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -5.08 90)
+				(at 0 -4.445 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1807,7 +2606,7 @@
 				)
 			)
 			(pin power_out line
-				(at 5.08 -0.635 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name ""
 					(effects
