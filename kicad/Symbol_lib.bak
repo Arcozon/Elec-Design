@@ -960,10 +960,10 @@
 	)
 	(symbol "GND"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "GND"
-			(at 0 6.096 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +1005,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "power ground"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1017,7 +1017,19 @@
 		(symbol "GND_0_1"
 			(polyline
 				(pts
-					(xy -1.905 2.54) (xy 1.27 2.54) (xy 1.905 2.54) (xy 0 4.445) (xy -1.905 2.54)
+					(xy -1.27 2.54) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy 0 3.81) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
