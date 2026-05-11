@@ -6,21 +6,20 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "ATmega328P-A"
-			(at 11.43 -41.148 0)
+		(property "Reference" "U"
+			(at 5.715 -37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "ATmega328P-A"
+			(at 12.7 -40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -82,7 +81,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 20.32 0)
 				(length 2.54)
 				(name "ADC6"
@@ -100,7 +99,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 17.78 0)
 				(length 2.54)
 				(name "ADC7"
@@ -136,7 +135,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 1.27 -38.1 90)
 				(length 2.54)
 				(name "GND"
@@ -154,7 +153,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 2.54 36.83 270)
 				(length 2.54)
 				(name "AVCC"
@@ -589,249 +588,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_100nF"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.794 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 1.524 -0.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 -0.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -0.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 -0.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "C_100nF_1_1"
-			(polyline
-				(pts
-					(xy -1.27 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 2.54 270)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -1.27 90)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "C_12pF"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.794 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12pF"
-			(at 1.524 -0.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 -0.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -0.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 -0.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "C_12pF_1_1"
-			(polyline
-				(pts
-					(xy -1.27 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 2.54 270)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -1.27 90)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "C_1uF"
+	(symbol "C"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -888,7 +645,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_1uF_1_1"
+		(symbol "C_1_1"
 			(polyline
 				(pts
 					(xy -1.27 0) (xy 1.27 0)
@@ -953,19 +710,21 @@
 		(embedded_fonts no)
 	)
 	(symbol "GND"
-		(exclude_from_sim no)
+		(power)
+		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(property "Reference" "GND"
-			(at 0 3.81 0)
+			(at 3.81 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 1.27 -3.81 0)
+		(property "Value" "GND"
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +770,7 @@
 		(symbol "GND_0_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy 1.27 1.27)
+					(xy -1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1023,7 +782,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27)
+					(xy -1.27 -1.27) (xy 0 -2.54) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1036,7 +795,7 @@
 		)
 		(symbol "GND_1_1"
 			(pin power_in line
-				(at 0 0 90)
+				(at 0 0 270)
 				(length 1.27)
 				(name ""
 					(effects
@@ -1724,147 +1483,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LED_Green"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 1.778 1.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Green"
-			(at 1.778 -1.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -27.94 -38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -27.94 -38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -27.94 -38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "led green"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LED_Green_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 -1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-		)
-		(symbol "LED_Green_1_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "↘"
-				(at -2.032 0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "↘"
-				(at -2.032 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 2.54 270)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "LED_Red"
+	(symbol "LED"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1913,7 +1532,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "led red"
+		(property "ki_keywords" "led"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1922,7 +1541,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LED_Red_0_1"
+		(symbol "LED_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 -1.27) (xy -1.27 1.27)
@@ -1936,7 +1555,7 @@
 				)
 			)
 		)
-		(symbol "LED_Red_1_1"
+		(symbol "LED_1_1"
 			(polyline
 				(pts
 					(xy -1.27 -1.27) (xy 1.27 -1.27)
@@ -1965,7 +1584,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin unspecified line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name ""
@@ -1983,7 +1602,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin unspecified line
 				(at 0 -2.54 90)
 				(length 1.27)
 				(name ""
@@ -2004,11 +1623,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "R_10kΩ"
+	(symbol "R"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "R2"
+		(property "Reference" "R"
 			(at 2.54 1.905 0)
 			(effects
 				(font
@@ -2061,7 +1680,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "R_10kΩ_0_1"
+		(symbol "R_0_1"
 			(rectangle
 				(start -0.635 2.54)
 				(end 0.635 -1.27)
@@ -2074,117 +1693,7 @@
 				)
 			)
 		)
-		(symbol "R_10kΩ_1_1"
-			(pin unspecified line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "R_330Ω"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R1"
-			(at 2.286 1.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 1.016 -1.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "resistor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "R_330Ω_0_1"
-			(rectangle
-				(start -0.635 2.54)
-				(end 0.635 -1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R_330Ω_1_1"
+		(symbol "R_1_1"
 			(pin unspecified line
 				(at 0 3.81 270)
 				(length 1.27)
@@ -2436,7 +1945,7 @@
 			)
 		)
 		(symbol "VCC_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 90)
 				(length 1.27)
 				(name ""
@@ -2566,7 +2075,7 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
@@ -2620,7 +2129,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name ""
