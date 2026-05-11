@@ -646,36 +646,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_100nF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -0.635) (xy 1.27 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0.635) (xy -1.27 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "C_100nF_1_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin unspecified line
-				(at 0 3.175 270)
-				(length 2.54)
+				(at 0 2.54 270)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -692,8 +690,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -3.175 90)
-				(length 2.54)
+				(at 0 -1.27 90)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -769,36 +767,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_12pF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -0.635) (xy 1.27 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0.635) (xy -1.27 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "C_12pF_1_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin unspecified line
-				(at 0 3.175 270)
-				(length 2.54)
+				(at 0 2.54 270)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -815,8 +811,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -3.175 90)
-				(length 2.54)
+				(at 0 -1.27 90)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -840,7 +836,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 2.794 1.27 0)
+			(at 3.175 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +844,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 1.524 -0.762 0)
+			(at 1.905 -0.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,36 +888,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_1uF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -0.635) (xy 1.27 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0.635) (xy -1.27 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "C_1uF_1_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin unspecified line
-				(at 0 3.175 270)
-				(length 2.54)
+				(at 0 2.54 270)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -938,8 +932,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -3.175 90)
-				(length 2.54)
+				(at 0 -1.27 90)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -963,7 +957,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "GND"
-			(at 0 5.08 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1011,7 @@
 		(symbol "GND_0_1"
 			(polyline
 				(pts
-					(xy -1.27 2.54) (xy 1.27 2.54)
+					(xy -1.27 1.27) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1029,7 +1023,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 2.54) (xy 0 3.81) (xy 1.27 2.54)
+					(xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1042,7 +1036,7 @@
 		)
 		(symbol "GND_1_1"
 			(pin power_in line
-				(at 0 1.27 90)
+				(at 0 0 90)
 				(length 1.27)
 				(name ""
 					(effects
@@ -1801,20 +1795,20 @@
 					(type outline)
 				)
 			)
+		)
+		(symbol "LED_Green_1_1"
 			(polyline
 				(pts
 					(xy -1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.2032)
+					(type solid)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "LED_Green_1_1"
 			(text "↘"
 				(at -2.032 0.762 0)
 				(effects
@@ -1832,8 +1826,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 3.81 270)
-				(length 2.54)
+				(at 0 2.54 270)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -1850,8 +1844,8 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -3.81 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -1941,20 +1935,20 @@
 					(type outline)
 				)
 			)
+		)
+		(symbol "LED_Red_1_1"
 			(polyline
 				(pts
 					(xy -1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.2032)
+					(type solid)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "LED_Red_1_1"
 			(text "↘"
 				(at -2.032 0.762 0)
 				(effects
@@ -1972,8 +1966,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 3.81 270)
-				(length 2.54)
+				(at 0 2.54 270)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -1990,8 +1984,8 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -3.81 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2015,7 +2009,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R2"
-			(at 2.286 1.016 0)
+			(at 2.54 1.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2017,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 1.016 -1.016 0)
+			(at 1.905 -0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,8 +2063,8 @@
 		)
 		(symbol "R_10kΩ_0_1"
 			(rectangle
-				(start -0.635 1.905)
-				(end 0.635 -1.905)
+				(start -0.635 2.54)
+				(end 0.635 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -2082,8 +2076,8 @@
 		)
 		(symbol "R_10kΩ_1_1"
 			(pin unspecified line
-				(at 0 4.445 270)
-				(length 2.54)
+				(at 0 3.81 270)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2100,8 +2094,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -4.445 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2179,8 +2173,8 @@
 		)
 		(symbol "R_330Ω_0_1"
 			(rectangle
-				(start -0.635 1.905)
-				(end 0.635 -1.905)
+				(start -0.635 2.54)
+				(end 0.635 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -2192,8 +2186,8 @@
 		)
 		(symbol "R_330Ω_1_1"
 			(pin unspecified line
-				(at 0 4.445 270)
-				(length 2.54)
+				(at 0 3.81 270)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2210,8 +2204,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -4.445 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2323,8 +2317,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2341,8 +2335,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2582,8 +2576,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 4.445 270)
-				(length 2.54)
+				(at 0 3.81 270)
+				(length 1.905)
 				(name ""
 					(effects
 						(font
@@ -2600,8 +2594,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -4.445 90)
-				(length 2.54)
+				(at 0 -3.81 90)
+				(length 1.905)
 				(name ""
 					(effects
 						(font
