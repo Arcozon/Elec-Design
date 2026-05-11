@@ -2228,7 +2228,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SW"
+		(property "Reference" "SW_Push"
 			(at 0 2.286 0)
 			(effects
 				(font
@@ -2263,6 +2263,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch"
 			(at 0 0 0)
 			(effects
 				(font

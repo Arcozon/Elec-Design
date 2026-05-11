@@ -2271,6 +2271,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Switch_0_1"
 			(polyline
 				(pts
