@@ -66,7 +66,7 @@
 				)
 			)
 			(symbol "ATmega328P-A_1_1"
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 29.21 0)
 					(length 2.54)
 					(name "AREF"
@@ -84,7 +84,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 20.32 0)
 					(length 2.54)
 					(name "ADC6"
@@ -102,7 +102,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 17.78 0)
 					(length 2.54)
 					(name "ADC7"
@@ -138,7 +138,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 1.27 -38.1 90)
 					(length 2.54)
 					(name "GND"
@@ -156,7 +156,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 2.54 36.83 270)
 					(length 2.54)
 					(name "AVCC"
@@ -2676,6 +2676,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 36.83) (xy 166.37 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4416422-096d-4e57-ac19-393edcdde0e6")
+	)
+	(wire
+		(pts
 			(xy 67.31 34.29) (xy 67.31 39.37)
 		)
 		(stroke
@@ -4182,7 +4192,7 @@
 	)
 	(symbol
 		(lib_id "Symbol_lib:VCC")
-		(at 166.37 38.1 0)
+		(at 166.37 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4190,7 +4200,7 @@
 		(dnp no)
 		(uuid "0bb3e415-1c73-4faa-9942-44d3389fd601")
 		(property "Reference" "#VCC04"
-			(at 168.91 34.9249 0)
+			(at 168.91 33.6549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4210,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 164.846 33.528 0)
+			(at 164.846 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 99.06 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 99.06 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 99.06 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
