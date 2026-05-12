@@ -717,9 +717,9 @@
 		)
 		(symbol "Symbol_lib:GND"
 			(power)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
-			(on_board no)
+			(on_board yes)
 			(property "Reference" "GND"
 				(at 3.81 -1.27 0)
 				(effects
@@ -2276,16 +2276,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 49.53) (xy 110.49 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e25958b-6a3d-441e-b542-d239fc28ec94")
-	)
-	(wire
-		(pts
 			(xy 45.72 46.99) (xy 45.72 50.8)
 		)
 		(stroke
@@ -2323,16 +2313,6 @@
 			(type default)
 		)
 		(uuid "2f1f53e9-da97-41f2-aad4-b11947a6d11b")
-	)
-	(wire
-		(pts
-			(xy 110.49 41.91) (xy 110.49 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "308980ac-b9f3-458d-b7c0-302d985b78bc")
 	)
 	(wire
 		(pts
@@ -2436,6 +2416,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 43.18) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66956e6e-a149-4619-aca5-330f5d7c6961")
+	)
+	(wire
+		(pts
 			(xy 109.22 114.3) (xy 109.22 123.19)
 		)
 		(stroke
@@ -2456,7 +2446,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 116.84) (xy 115.57 116.84)
+			(xy 111.76 116.84) (xy 115.57 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2613,6 +2603,16 @@
 			(type default)
 		)
 		(uuid "f0dd318f-c5bb-4422-9ced-238c7e7fd78b")
+	)
+	(wire
+		(pts
+			(xy 110.49 49.53) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f391f6c2-a209-412f-9357-2b645839ba98")
 	)
 	(wire
 		(pts
@@ -4570,7 +4570,7 @@
 	)
 	(symbol
 		(lib_id "Symbol_lib:GND")
-		(at 110.49 50.8 0)
+		(at 110.49 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4578,7 +4578,7 @@
 		(dnp no)
 		(uuid "3443032b-bb73-4fff-b563-eb5e97150320")
 		(property "Reference" "#GND07"
-			(at 114.3 52.07 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4587,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 108.966 55.118 0)
+			(at 108.966 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 54.61 0)
+			(at 111.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 54.61 0)
+			(at 111.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 54.61 0)
+			(at 111.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5340,7 @@
 	)
 	(symbol
 		(lib_id "Symbol_lib:LED")
-		(at 110.49 46.99 0)
+		(at 110.49 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5349,7 +5349,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6823015-ef80-4877-8c8d-304beb0292b5")
 		(property "Reference" "D1"
-			(at 113.03 45.5139 0)
+			(at 113.03 44.2439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5358,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 113.03 48.0539 0)
+			(at 113.03 46.7839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 85.09 0)
+			(at 82.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 85.09 0)
+			(at 82.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 85.09 0)
+			(at 82.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5942,7 @@
 	)
 	(symbol
 		(lib_id "Symbol_lib:GND")
-		(at 113.03 116.84 0)
+		(at 111.76 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5950,7 +5950,7 @@
 		(dnp no)
 		(uuid "f99ca60d-ddbf-4f98-9c44-ac85060112ef")
 		(property "Reference" "#GND05"
-			(at 116.84 118.11 0)
+			(at 115.57 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.506 121.158 0)
+			(at 110.236 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +5968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 120.65 0)
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +5977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 120.65 0)
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +5986,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 120.65 0)
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

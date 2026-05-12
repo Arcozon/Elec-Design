@@ -714,9 +714,9 @@
 	)
 	(symbol "GND"
 		(power)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(property "Reference" "GND"
 			(at 3.81 -1.27 0)
 			(effects
@@ -1814,6 +1814,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center -0.9707 -0.01)
+				(radius 0.2712)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0 0.635) (xy 0 1.27)
@@ -1826,26 +1837,19 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 0.951 -0.0034)
+				(radius 0.2712)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "Switch_1_1"
-			(text "◯"
-				(at -1.016 0.254 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(justify top)
-				)
-			)
-			(text "◯"
-				(at 1.016 0.254 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(justify top)
-				)
-			)
 			(pin unspecified line
 				(at -2.54 0 0)
 				(length 1.27)
