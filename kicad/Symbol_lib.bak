@@ -279,7 +279,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 15.24 13.97 180)
 				(length 2.54)
 				(name "XTAL1/PB6"
@@ -297,7 +297,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 11.43 180)
 				(length 2.54)
 				(name "XTAL2/PB7"
@@ -589,6 +589,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "C"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -680,7 +683,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -698,7 +701,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1484,6 +1487,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LED"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1594,7 +1600,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1612,7 +1618,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1624,6 +1630,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "R"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1704,7 +1713,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1722,7 +1731,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1734,6 +1743,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "Switch"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1844,7 +1856,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1862,7 +1874,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2093,7 +2105,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 0 3.81 270)
 				(length 1.905)
 				(name ""
@@ -2111,7 +2123,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -3.81 90)
 				(length 1.905)
 				(name ""
