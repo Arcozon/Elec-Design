@@ -1,0 +1,105 @@
+(footprint "C0603DA-DimCode_1.7x0.9x0.9_P0.4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "capacitor")
+	(property "Reference" "C"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8ed5786d-3857-4526-b688-2597447ee5cb")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.07)
+			)
+		)
+	)
+	(property "Value" "100nF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "974a3914-ef0a-425a-9361-4521eab95ed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8667086713656442880-C14663.pdf?response-content-disposition=attachment%3B%20filename%3DC14663.pdf%3B%20filename%2A%3DUTF-8%27%27C14663.pdf&x-oss-date=20260514T102455Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5ndBvzzn7gV%2FbWZYHLVh3hsNfdEnJT6hTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qb0klFFL4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqrXvh60nSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIwDYQPKKWD5sagAFDnC8jJRMu3RL8oNdJ7rdr3e5QXi%2Fx7lXBWY10gqlIbNM8q%2BkX%2FSpLnzSwVc8g9G32Bqc6Z91Z4tR2T5enN%2BqBQhhrRTh3od1X5ozUamFcLjedbyPck3JY6TYBq%2F%2FkRZslDMAJu4jEXjLqjRlP%2B2ORESXYzdw6F1O6F%2FyH5UlEaCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZhMFGrg4JwrbTdcx99xhsQQg%2F20260514%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=8933778d4aa0f55081395e51c914623d75c2750bcfbd7a76e3efe10d27948b22"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6c3574b-ae5e-4230-8a4e-d9f997496248")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0603-DA Dimesions"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "484902ee-1701-474f-851d-2d7d572ea9c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -0.45)
+		(end 0.2 -0.45)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ac0053f-3f12-4f15-9671-0e25be4bd2d9")
+	)
+	(fp_line
+		(start -0.2 0.45)
+		(end 0.2 0.45)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a06bb016-5188-4f4c-93aa-1ae381544768")
+	)
+	(fp_rect
+		(start -1.05 -0.5)
+		(end 1.05 0.5)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "70cb20bb-839f-4c7f-8244-a0c8673452ea")
+	)
+	(pad "1" smd roundrect
+		(at -0.625 0)
+		(size 0.75 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "5e52cbb6-4092-41f0-97ba-2e87778f87a0")
+	)
+	(pad "2" smd roundrect
+		(at 0.625 0)
+		(size 0.75 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9724bfab-bfe6-4870-aa9a-591fcd347835")
+	)
+	(embedded_fonts no)
+)
