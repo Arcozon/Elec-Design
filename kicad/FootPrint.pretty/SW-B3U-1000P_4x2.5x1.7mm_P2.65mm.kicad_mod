@@ -5,18 +5,18 @@
 	(layer "F.Cu")
 	(tags "switch")
 	(property "Reference" "SW"
-		(at 0 -4.5 0)
+		(at 0 -2.166677 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "15f22865-ce3f-4c06-a2d6-1ea5ef24b92e")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.1)
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
