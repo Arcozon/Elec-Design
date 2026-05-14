@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ATmega328P-A"
+	(symbol "ATmega328P-AB"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:ATmega328P-AB-TQFP-32_7x7x1.2mm_P0.8mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ATmega328P-A_0_1"
+		(symbol "ATmega328P-AB_0_1"
 			(rectangle
 				(start -12.7 34.29)
 				(end 12.7 -35.56)
@@ -62,7 +62,7 @@
 				)
 			)
 		)
-		(symbol "ATmega328P-A_1_1"
+		(symbol "ATmega328P-AB_1_1"
 			(pin passive line
 				(at -15.24 29.21 0)
 				(length 2.54)
@@ -612,7 +612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 			(at 0 -0.635 0)
 			(effects
 				(font
@@ -864,7 +864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:PinHeader-1x12_30.3x2.5x8.5mm_T3mm_P2.54mm"
 			(at -248.92 -320.04 0)
 			(effects
 				(font
@@ -1288,7 +1288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:PinHeader-1x06_15.05x2.5x8.5mm_T3mm_P2.54mm"
 			(at -248.92 -320.04 0)
 			(effects
 				(font
@@ -1419,7 +1419,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 3.81 3.81 180)
 				(length 2.54)
 				(name ""
@@ -1437,7 +1437,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 3.81 1.27 180)
 				(length 2.54)
 				(name ""
@@ -1520,7 +1520,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 1.778 1.016 0)
+			(at 2.6241 1.0855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1529,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 1.778 -1.016 0)
+			(at 2.6241 -0.9465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:LED-0603_1.6x0.8x0.6mm_P1.2mm"
 			(at -27.94 -38.1 0)
 			(effects
 				(font
@@ -1601,7 +1601,7 @@
 				)
 			)
 			(text "↘"
-				(at -2.032 0.762 0)
+				(at 1.5562 -0.4126 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1609,7 +1609,7 @@
 				)
 			)
 			(text "↘"
-				(at -2.032 -0.254 0)
+				(at 1.8839 0.3397 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1679,7 +1679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:R0603_1.75x0.95x0.55mm_P1.3mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1791,7 +1791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:SW-B3U-1000P_4x2.5x1.7mm_P2.65mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2028,7 +2028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:Crystal-YSX321SL_3.2x2.5x0.7mm"
 			(at 0 0.635 0)
 			(effects
 				(font
