@@ -1,15 +1,57 @@
-3557507956375
+14230162838619
 FootPrint
-ATmega328-P
+ATmega328P-AB-TQFP-32_7x7x1.2mm_P0.8mm
 
 
 0
 32
-32
+31
 FootPrint
-C-100nF
+C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm
 
 capacitor
+0
+2
+2
+FootPrint
+Crystal-YSX321SL_3.2x2.5x0.7mm
+
+crystal
+0
+4
+4
+FootPrint
+LED-0603_1.6x0.8x0.6mm_P1.2mm
+
+
+0
+2
+2
+FootPrint
+PinHeader-1x06_15.05x2.5x8.5mm_T3mm_P2.54mm
+
+pinheader 6
+0
+6
+6
+FootPrint
+PinHeader-1x12_30.3x2.5x8.5mm_T3mm_P2.54mm
+
+pinheader 12
+0
+12
+12
+FootPrint
+R0603_1.75x0.95x0.55mm_P1.3mm
+
+resistor
+0
+2
+2
+FootPrint
+SW-B3U-1000P_4x2.5x1.7mm_P2.65mm
+
+switch
 0
 2
 2
