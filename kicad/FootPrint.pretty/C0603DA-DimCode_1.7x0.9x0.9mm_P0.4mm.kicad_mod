@@ -1,4 +1,4 @@
-(footprint "C0603DA-DimCode_1.7x0.9x0.9_P0.4"
+(footprint "C0603DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

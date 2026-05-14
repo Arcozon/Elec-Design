@@ -1,4 +1,4 @@
-(footprint "R0603_1.75x0.95x0.55_P1.3"
+(footprint "R0603_1.75x0.95x0.55mm_P1.3mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
