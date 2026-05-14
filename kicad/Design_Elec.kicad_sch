@@ -5,7 +5,7 @@
 	(uuid "549964e7-bbcc-4216-ba15-1b5b4f40102c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Symbol_lib:ATmega328P-A"
+		(symbol "Symbol_lib:ATmega328P-AB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FootPrint:ATmega328P-AB-TQFP-32_7x7x1.2mm_P0.8mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ATmega328P-A_0_1"
+			(symbol "ATmega328P-AB_0_1"
 				(rectangle
 					(start -12.7 34.29)
 					(end 12.7 -35.56)
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(symbol "ATmega328P-A_1_1"
+			(symbol "ATmega328P-AB_1_1"
 				(pin passive line
 					(at -15.24 29.21 0)
 					(length 2.54)
@@ -615,7 +615,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FootPrint:C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 				(at 0 -0.635 0)
 				(effects
 					(font
@@ -867,7 +867,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FootPrint:PinHeader-1x12_30.3x2.5x8.5mm_T3mm_P2.54mm"
 				(at -248.92 -320.04 0)
 				(effects
 					(font
@@ -1291,7 +1291,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FootPrint:PinHeader-1x06_15.05x2.5x8.5mm_T3mm_P2.54mm"
 				(at -248.92 -320.04 0)
 				(effects
 					(font
@@ -1523,7 +1523,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 1.778 1.016 0)
+				(at 2.6241 1.0855 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1532,7 +1532,7 @@
 				)
 			)
 			(property "Value" "Red"
-				(at 1.778 -1.016 0)
+				(at 2.6241 -0.9465 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1540,7 +1540,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FootPrint:LED-0603_1.6x0.8x0.6mm_P1.2mm"
 				(at -27.94 -38.1 0)
 				(effects
 					(font
@@ -1604,7 +1604,7 @@
 					)
 				)
 				(text "↘"
-					(at -2.032 0.762 0)
+					(at 1.5562 -0.4126 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1612,7 +1612,7 @@
 					)
 				)
 				(text "↘"
-					(at -2.032 -0.254 0)
+					(at 1.8839 0.3397 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1682,7 +1682,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FootPrint:R0603_1.75x0.95x0.55mm_P1.3mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1794,7 +1794,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FootPrint:SW-B3U-1000P_4x2.5x1.7mm_P2.65mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2031,7 +2031,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FootPrint:Crystal-YSX321SL_3.2x2.5x0.7mm"
 				(at 0 0.635 0)
 				(effects
 					(font
@@ -4545,156 +4545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbol_lib:ATmega328P-A")
-		(at 83.82 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32254312-7b7e-465a-b205-c2d8ffb2c30d")
-		(property "Reference" "U1"
-			(at 87.2333 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ATmega328P-A"
-			(at 87.2333 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf"
-			(at 82.042 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "9c88a5ac-770e-4754-9f65-c988a3fe87c3")
-		)
-		(pin "28"
-			(uuid "1c59d451-11cb-4ad0-a86e-f6e33596665e")
-		)
-		(pin "23"
-			(uuid "e80c48a7-0102-4e8b-bd10-d7cc096d688f")
-		)
-		(pin "12"
-			(uuid "b8011530-5fde-428d-a53c-9a324715f15e")
-		)
-		(pin "1"
-			(uuid "dca595d1-6e65-4fc9-a146-49ccbfd55d3d")
-		)
-		(pin "32"
-			(uuid "2be12ace-485c-4907-a02f-291597f1cdd0")
-		)
-		(pin "26"
-			(uuid "0b725afe-5bc3-4f6a-94c6-b04a37d837f6")
-		)
-		(pin "20"
-			(uuid "fe424ee9-6d1f-48ee-8882-cbb0d2426b38")
-		)
-		(pin "4"
-			(uuid "29ba911a-c4b8-4efc-a749-bf667bab64b3")
-		)
-		(pin "30"
-			(uuid "977aea5d-feb4-44ff-8cff-ad5c18c3321d")
-		)
-		(pin "19"
-			(uuid "e0b6aa3e-f755-414e-a371-ce2c11f7c0f3")
-		)
-		(pin "16"
-			(uuid "6cdd5e62-64ea-4476-98ed-1ed2c08aea2a")
-		)
-		(pin "13"
-			(uuid "c726490e-124d-47c7-916e-537f478decff")
-		)
-		(pin "3"
-			(uuid "f97d9270-031a-4412-a7f9-a81e39d551bb")
-		)
-		(pin "31"
-			(uuid "1db1ee57-10ce-4512-b907-f7dbe8b97baa")
-		)
-		(pin "7"
-			(uuid "23033c5c-e937-4877-8275-9e2319bf96df")
-		)
-		(pin "25"
-			(uuid "9d348453-f567-4364-a5a9-bb717ff3252e")
-		)
-		(pin "17"
-			(uuid "b90b703f-dd9f-47ff-91ad-283677693944")
-		)
-		(pin "9"
-			(uuid "0692f528-144a-4a0a-9df2-18e1f9e4d19a")
-		)
-		(pin "2"
-			(uuid "222567c7-27cc-4070-8f53-4d076d8ed16b")
-		)
-		(pin "10"
-			(uuid "331f531c-5ac3-43df-a425-047a358fb947")
-		)
-		(pin "27"
-			(uuid "300cdaea-37a3-47a4-8859-ea4785bddc3b")
-		)
-		(pin "22"
-			(uuid "b9a45ee5-a47e-41aa-9ef9-6cd364090e50")
-		)
-		(pin "8"
-			(uuid "e70be1cd-1539-44ef-a066-3446494d3433")
-		)
-		(pin "18"
-			(uuid "66cdf2a1-1a74-4f97-a7bc-24465d3ded2d")
-		)
-		(pin "14"
-			(uuid "92748719-a9c1-492f-966d-34e2d833c48b")
-		)
-		(pin "29"
-			(uuid "b18881af-5997-4343-b0e5-e87821f34ca2")
-		)
-		(pin "24"
-			(uuid "a7461268-a4d2-4958-8a25-2ada6fa9f54f")
-		)
-		(pin "11"
-			(uuid "992698d6-b39a-4cb3-a13e-d2f88b944124")
-		)
-		(instances
-			(project "Design_Elec"
-				(path "/549964e7-bbcc-4216-ba15-1b5b4f40102c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Symbol_lib:GND")
 		(at 109.22 49.53 0)
 		(unit 1)
@@ -4962,6 +4812,157 @@
 			(project "Design_Elec"
 				(path "/549964e7-bbcc-4216-ba15-1b5b4f40102c"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbol_lib:ATmega328P-AB")
+		(at 83.82 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "459b104b-9824-441b-812d-5ca080386181")
+		(property "Reference" "U1"
+			(at 87.2333 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ATmega328P-A"
+			(at 87.2333 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FootPrint:ATmega328P-AB-TQFP-32_7x7x1.2mm_P0.8mm"
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf"
+			(at 82.042 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "c3e971fc-4364-4be9-922b-3e1ca2686d12")
+		)
+		(pin "2"
+			(uuid "b7b4e331-019d-4748-b55d-fd0966f330bb")
+		)
+		(pin "11"
+			(uuid "d68dc024-82ff-454a-9c21-e952f8f156a4")
+		)
+		(pin "25"
+			(uuid "69a5fafb-8cc1-405f-b9ff-2058026c7a07")
+		)
+		(pin "32"
+			(uuid "5fd7de32-1bf6-4d54-9f5d-50cb5e9d569d")
+		)
+		(pin "14"
+			(uuid "f0a4c749-5c1c-46da-935e-09cf4505b415")
+		)
+		(pin "31"
+			(uuid "5c3dec7f-0001-4089-a1de-d605ddb9787f")
+		)
+		(pin "4"
+			(uuid "9719de99-f0b3-4caf-ab81-0ed1e74acd77")
+		)
+		(pin "29"
+			(uuid "29df1f7b-5708-453a-8aff-0b835de62370")
+		)
+		(pin "22"
+			(uuid "54ae84a8-7aa5-4d41-bf57-422e8fa61cb0")
+		)
+		(pin "27"
+			(uuid "b0486fd1-9237-4496-b530-7197a5d06e45")
+		)
+		(pin "16"
+			(uuid "64fca7f2-a26c-40fa-8b87-8fbcb9389567")
+		)
+		(pin "15"
+			(uuid "df8ef9f6-f94f-46fe-a451-12c5b8818575")
+		)
+		(pin "17"
+			(uuid "4820b06a-9e80-4684-a4b9-b874b4551e0d")
+		)
+		(pin "3"
+			(uuid "9659d21a-4d40-4a68-8f80-4e512b20303c")
+		)
+		(pin "1"
+			(uuid "e70aee86-68ec-4e6a-9fd3-dc05b248736b")
+		)
+		(pin "10"
+			(uuid "69d85683-c52f-4544-9814-1fe114c29a06")
+		)
+		(pin "18"
+			(uuid "ee826a1d-ffd1-497f-832e-d4354f469e82")
+		)
+		(pin "7"
+			(uuid "6923190e-8d3b-44e1-b6f7-7d8682bfc463")
+		)
+		(pin "23"
+			(uuid "f8ef9d1e-5619-4398-b898-b1adb1468dc4")
+		)
+		(pin "19"
+			(uuid "796d749d-95e7-4733-b7d7-33e693bb1195")
+		)
+		(pin "26"
+			(uuid "02b247a7-8900-484e-8f21-5e38350e47f9")
+		)
+		(pin "9"
+			(uuid "d8dd4715-977e-4819-b2cc-aaa2567876f7")
+		)
+		(pin "8"
+			(uuid "c400a37e-635c-4e79-af08-9a16489a5225")
+		)
+		(pin "20"
+			(uuid "a09e9e6a-ffd1-40a2-85ef-7ebe52b0b2d8")
+		)
+		(pin "12"
+			(uuid "3fc0fda6-463d-4153-aff8-a36d2949711a")
+		)
+		(pin "28"
+			(uuid "193d2f66-f989-4040-8d02-f4adac0cb329")
+		)
+		(pin "30"
+			(uuid "5facd2a8-0847-4d64-bd82-92742cb617e7")
+		)
+		(pin "13"
+			(uuid "f8e3eea9-fbac-4aaf-9921-f82859355a76")
+		)
+		(instances
+			(project "Design_Elec"
+				(path "/549964e7-bbcc-4216-ba15-1b5b4f40102c"
+					(reference "U1")
 					(unit 1)
 				)
 			)
