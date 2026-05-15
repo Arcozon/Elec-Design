@@ -4031,7 +4031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:R0603_1.75x0.95x0.55mm_P1.3mm"
 			(at 109.22 38.1 0)
 			(effects
 				(font
@@ -4300,7 +4300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 			(at 151.765 45.72 0)
 			(effects
 				(font
@@ -4502,7 +4502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 			(at 127.635 123.19 0)
 			(effects
 				(font
@@ -4637,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 			(at 60.325 96.52 0)
 			(effects
 				(font
@@ -4706,7 +4706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 			(at 54.61 46.355 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 			(at 127.635 111.76 0)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:R0603_1.75x0.95x0.55mm_P1.3mm"
 			(at 67.31 49.53 0)
 			(effects
 				(font
@@ -5066,7 +5066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
 			(at 45.72 46.355 0)
 			(effects
 				(font
@@ -5134,7 +5134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:Crystal-YSX321SL_3.2x2.5x0.7mm"
 			(at 120.65 116.205 0)
 			(effects
 				(font
@@ -5210,7 +5210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:LED-0603_1.6x0.8x0.6mm_P1.2mm"
 			(at 39.37 81.28 0)
 			(effects
 				(font
@@ -5345,7 +5345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:PinHeader-1x06_15.05x2.5x8.5mm_T3mm_P2.54mm"
 			(at -25.4 426.72 0)
 			(effects
 				(font
@@ -5492,7 +5492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:LED-0603_1.6x0.8x0.6mm_P1.2mm"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -5626,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:SW-B3U-1000P_4x2.5x1.7mm_P2.65mm"
 			(at 158.75 45.72 0)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:R0603_1.75x0.95x0.55mm_P1.3mm"
 			(at 166.37 41.91 0)
 			(effects
 				(font
@@ -5764,7 +5764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:PinHeader-1x12_30.3x2.5x8.5mm_T3mm_P2.54mm"
 			(at 453.39 -210.82 0)
 			(effects
 				(font
@@ -5994,7 +5994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FootPrint:PinHeader-1x12_30.3x2.5x8.5mm_T3mm_P2.54mm"
 			(at -85.09 429.26 0)
 			(effects
 				(font
