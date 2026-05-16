@@ -1,11 +1,11 @@
-14230185855814
+16009496201926
 FootPrint
 ATmega328P-AB-TQFP-32_7x7x1.2mm_P0.8mm
 
 
 0
 32
-31
+32
 FootPrint
 C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm
 
@@ -27,6 +27,13 @@ LED-0603_1.6x0.8x0.6mm_P1.2mm
 0
 2
 2
+FootPrint
+LuluMix
+
+
+0
+0
+0
 FootPrint
 PinHeader-1x06_15.05x2.5x8.5mm_T3mm_P2.54mm
 

@@ -26,7 +26,7 @@
 				)
 			)
 			(property "Footprint" "FootPrint:ATmega328P-AB-TQFP-32_7x7x1.2mm_P0.8mm"
-				(at 0 0 0)
+				(at -6.35 -0.635 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -113,6 +113,63 @@
 						)
 					)
 					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -15.24 3.175 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -429,7 +486,7 @@
 				(pin bidirectional line
 					(at 15.24 -8.89 180)
 					(length 2.54)
-					(name "RESET/PC6"
+					(name "~{RESET}/PC6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4958,6 +5015,15 @@
 		)
 		(pin "13"
 			(uuid "f8e3eea9-fbac-4aaf-9921-f82859355a76")
+		)
+		(pin "21"
+			(uuid "c168ca44-54e2-4744-8465-d7f8bbaaa740")
+		)
+		(pin "5"
+			(uuid "4b5a63f8-f798-4c89-bf33-cdac135901e5")
+		)
+		(pin "6"
+			(uuid "1eae47d9-c7d4-4bf4-bcea-a8d8040c2a48")
 		)
 		(instances
 			(project "Design_Elec"
