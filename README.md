@@ -131,4 +131,5 @@ The switch is not polarized, the pin order does not mater
 Connected to C4 and (R3, U1-Reset, J1-Pin10, J2-Pin3)
 
 # Notes
+- My drawing is a footprint in my lib because i didnt known how to do it otherwise, it also has an error because it has no courtyard
 - C5 is missing from provided shematic
