@@ -1,0 +1,106 @@
+(footprint "C0603-DA-DimCode_1.7x0.9x0.9mm_P0.4mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "capacitor")
+	(property "Reference" "C"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f1360ec4-f796-4fe1-8983-4e037c82d14d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.07)
+			)
+		)
+	)
+	(property "Value" "100nF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2d12f9b-8838-4ac6-ae0a-a01abac88113")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77a7b381-70ad-4d80-aac2-2fe25cd3742c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0603-DA Dimesions"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af2f1247-bd34-4ceb-9917-3366ce5f5290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.2 -0.45)
+		(end 0.2 -0.45)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbd52b5d-6e01-4af3-979c-5631122eef5a")
+	)
+	(fp_line
+		(start -0.2 0.45)
+		(end 0.2 0.45)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09547230-343c-4365-ba26-930a3ff067f5")
+	)
+	(fp_rect
+		(start -1.05 -0.5)
+		(end 1.05 0.5)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aa023a36-7ffd-4496-8da1-d414d9e4cf17")
+	)
+	(pad "1" smd roundrect
+		(at -0.625 0)
+		(size 0.75 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7198fe12-b519-48c5-a4ec-1cc761e17840")
+	)
+	(pad "2" smd roundrect
+		(at 0.625 0)
+		(size 0.75 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "4c87e70d-b6cc-43bb-b084-495accb3d096")
+	)
+	(embedded_fonts no)
+)

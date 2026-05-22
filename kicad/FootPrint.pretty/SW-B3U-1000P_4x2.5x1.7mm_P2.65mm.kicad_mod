@@ -1,0 +1,160 @@
+(footprint "SW-B3U-1000P_4x2.5x1.7mm_P2.65mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "switch")
+	(property "Reference" "SW"
+		(at 0 -2.166677 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c84117e-4db4-45e8-9304-e92fe81dcc11")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91648867-4d3a-4044-a4bd-12c39a9be689")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/partdetail/OmronElectronics-B3U1000P/C231329"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98aa3df6-e445-4618-a015-f8dc7976f0b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5d93a78-d50b-4c62-8586-167818f50f39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.5 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cb9c307-9986-4461-ad14-ce3b79cffc25")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "806b5640-23a2-4540-9101-8360d832dabb")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09caa75e-2fe6-4fa6-9fbe-f942463612f5")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8c79039-6a4f-4b0f-93c0-69f6761bb5ba")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end 1.5 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e5270b8-1a7b-4876-bccb-d23204f127db")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end 1.5 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d0e5747-7263-4eb3-9ba7-70b923851c4f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.749706)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4fa7631a-5dec-4414-917b-905b8dbdd5a9")
+	)
+	(fp_poly
+		(pts
+			(xy -1.696788 -1.049702) (xy -2.322104 -1.054059) (xy -2.32827 1.036091) (xy -1.688665 1.034849)
+			(xy -1.682911 1.437459) (xy 1.682911 1.431774) (xy 1.688596 1.073587) (xy 2.296946 1.073587) (xy 2.295271 -1.049332)
+			(xy 1.67154 -1.047108) (xy 1.664786 -1.44289) (xy -1.687527 -1.447297)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4716d2bb-376c-4694-989a-61fc2ee2e8a6")
+	)
+	(pad "1" smd roundrect
+		(at -1.725 0)
+		(size 0.85 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7a475fe2-31a5-48d0-b76b-3cc043be0883")
+	)
+	(pad "2" smd roundrect
+		(at 1.725 0)
+		(size 0.85 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "46145a3a-d3b8-47f4-ab66-14d9e70bc8a4")
+	)
+	(embedded_fonts no)
+)
